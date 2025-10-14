@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* smooth scrolling & dark bg */
+
 html {
     scroll-behavior: smooth;
-    background-color: #139898;
-    color: #15191e;
+    background-color: #173447; /* GIS / earthy background */
+    color: #e6d5d3ff;            /* primary text color for good contrast */
+}
+
+/* Use the accent for headings/buttons */
+h1, h2, .btn-accent {
+  color: #B0B326;
 }
