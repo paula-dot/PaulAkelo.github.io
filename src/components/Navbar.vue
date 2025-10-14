@@ -1,15 +1,14 @@
 <template>
-  <nav class="sticky top-0 z-50 bg-white shadow flex justify-between items-center py-4 px-8 mb-12">
-    <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900">Paul Akelo</h1>
-    <div class="flex space-x-8">
-      <a href="#" class="text-lg font-semibold text-orange-500 border-b-2 border-orange-500 pb-1">Home</a>
-      <a href="#about" class="text-lg text-gray-700 hover:text-orange-500 transition">About</a>
-      <a href="#skills" class="text-lg text-gray-700 hover:text-orange-500 transition">Skills</a>
-      <a href="#projects" class="text-lg text-gray-700 hover:text-orange-500 transition">Projects</a>
-      <a href="#contact" class="text-lg text-gray-700 hover:text-orange-500 transition">Contact</a>
+  <nav class="flex items-center justify-between px-8 py-4 bg-gray-900 border-b border-gray-800 shadow-lg">
+    <div class="flex items-center space-x-3">
+      <img src="/images/paula_dot.png" alt="avatar" class="h-10 w-10 rounded-full object-cover">
+      <h1 class="text-xl font-semibold tracking-wide">paula-dot</h1>
+    </div>
+    <div class="space-x-6 hidden md:flex">
+      <a href="#about" class="hover:text-teal-400 transition">About</a>
+      <a href="#projects" class="hover:text-teal-400 transition">Projects</a>
+      <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
     </div>
   </nav>
 </template>
 
-<script setup>
-</script>
