@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/postcss'
 import autoprefixer from 'autoprefixer'
 
 export default defineConfig({
     base: '/spatial-dev-hub/',
-    plugins: [vue()],
+    plugins: [react()],
     css: {
         postcss: {
             plugins: [tailwindcss, autoprefixer]
