@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/postcss'
 import autoprefixer from 'autoprefixer'
 
 export default defineConfig({
-    base: '/spatial-dev-hub/',
+    base: '/paula-dot-portfolio/',
     plugins: [react()],
     css: {
         postcss: {

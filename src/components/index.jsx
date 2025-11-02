@@ -1,0 +1,12 @@
+export { default as Hero } from './Hero.jsx'
+export { default as KeySkills } from './KeySkills.jsx'
+export { default as Contact } from './Contact.jsx'
+export { default as ContactForm } from './ContactForm.jsx'
+export { default as Navbar } from './Navbar.jsx'
+export { default as Footer } from './Footer.jsx'
+export { default as Layout } from './Layout.jsx'
+export { default as Projects } from './Projects.jsx'
+export { default as About } from './About.jsx'
+export { default as Skills } from './Skills.jsx'
+export { default as TechStack } from './TechStack.jsx'
+
